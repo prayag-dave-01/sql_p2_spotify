@@ -97,12 +97,13 @@ After the data is inserted, various SQL queries can be written to explore and an
 The following SQL queries were developed to answer specific business questions:
 
 ### Easy Level
-Q.1 Retrieve the names of all tracks that have more than 1 billion streams.
-Q.2 List all albums along with their respective artists.
-Q.3 Get the total number of comments for tracks where `licensed = TRUE`.
-Q.4 Find all tracks that belong to the album type `single`.
-Q.5 Count the total number of tracks by each artist.
+1. Retrieve the names of all tracks that have more than 1 billion streams.
+2. List all albums along with their respective artists.
+3. Get the total number of comments for tracks where `licensed = TRUE`.
+4. Find all tracks that belong to the album type `single`.
+5. Count the total number of tracks by each artist.
 
+---
 
 1. **Retrieve the names of all tracks that have more than 1 billion streams.**:
 ```sql
