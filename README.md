@@ -104,6 +104,7 @@ The following SQL queries were developed to answer specific business questions:
 4. Find all tracks that belong to the album type `single`.
 5. Count the total number of tracks by each artist.
 
+
 1. **Retrieve the names of all tracks that have more than 1 billion streams.**:
 ```sql
 SELECT track
