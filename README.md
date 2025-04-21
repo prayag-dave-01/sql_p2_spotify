@@ -91,7 +91,7 @@ After the data is inserted, various SQL queries can be written to explore and an
 - Simple data retrieval, filtering, and basic aggregations.
   
 #### Medium Queries
-- More complex queries involving grouping, aggregation functions, and joins.
+- More complex queries involving grouping, and aggregation functions.
   
 #### Advanced Queries
 - Nested subqueries, window functions, CTEs, and performance optimization.
@@ -311,7 +311,7 @@ To improve query performance, we carried out the following optimization process:
     - To optimize the query performance, we created an index on the `artist` column. This ensures faster retrieval of rows where the artist is queried.
     - **SQL command** for creating the index:
       ```sql
-      CREATE INDEX idx_artist ON spotify_tracks(artist);
+      CREATE INDEX idx_artist ON spotify(artist);
       ```
 
 - **Performance Analysis After Index Creation**
