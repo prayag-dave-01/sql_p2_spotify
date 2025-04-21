@@ -153,6 +153,8 @@ ORDER BY 2
 4. For each album, calculate the total views of all associated tracks.
 5. Retrieve the track names that have been streamed on Spotify more than YouTube.
 
+---
+
 1. **Calculate the average danceability of tracks in each album.**:
 ```sql
 SELECT 
@@ -212,6 +214,8 @@ LIMIT 20
 3. **Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.
 4. Find tracks where the energy-to-liveness ratio is greater than 1.2.
 5. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
+
+---
 
 1. **Find the top 3 most-viewed tracks for each artist using window functions and CTE.**:
 ```sql
@@ -325,12 +329,12 @@ This optimization shows how indexing can drastically reduce query time, improvin
 
 ## Technology Stack
 - **Database**: PostgreSQL
-- **SQL Queries**: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
-- **Tools**: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
+- **SQL Queries**: DDL, DML, Aggregations, Subqueries, Window Functions
+- **Tools**: pgAdmin 4 (used) (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
 
 ## Conclusion
 
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding platform usage, customer choice of songs, best performing artists, comparison with other music platforms.
 
 ## Author - Prayag Dave
 
