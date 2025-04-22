@@ -1,11 +1,11 @@
-# Spotify Advanced SQL Project and Query Optimization P-2
+# Spotify Advanced SQL Project and Query Optimization
 
 ![Spotify Logo](https://github.com/prayag-dave-01/sql_p2_spotify/blob/main/spotify_logo.jpg?raw=true)
 
 ## Project Overview
 
-**Project Title**: Retail Sales Analysis  
-**Level**: Intermediate
+**Project Title**: Data Analysis of music platform 'Spotify' using SQL
+**Level**: Intermediate to Advanced
 **Database**: `p2_spotify_db`
 
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to showcase my SQL skills and generate valuable insights from the dataset.
