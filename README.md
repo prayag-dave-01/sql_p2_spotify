@@ -4,8 +4,8 @@
 
 ## Project Overview
 
-**Project Title**: Data Analysis of music platform 'Spotify' using SQL
-**Level**: Intermediate to Advanced
+**Project Title**: Data Analysis of music platform 'Spotify' using SQL  
+**Level**: Intermediate to Advanced  
 **Database**: `p2_spotify_db`
 
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to showcase my SQL skills and generate valuable insights from the dataset.
